@@ -1,0 +1,14 @@
+Practical 3 
+MongoDB
+1. show databases;
+2. use student;
+3. show databases;
+4. db.createCollection("StudentInfo")
+5. show collections;
+6. db.StudentInfo.insertOne({firstname:"Aish",lastname:"Jadhav"})
+7.db.StudentInfo.insertMany([{firstname:"Saurabh",lastname:"Jadhav"},{firstname:"Anil",lastname:"Jadhav"}])
+8.  db.StudentInfo.find()
+8.  db.StudentInfo.find({firstname:'Saurabh'});
+9.db.StudentInfo.updateOne({lastname:"Vedpathal"},{$set:{lastname:"Vedpathak"}})
+10. db.dropDatabase()
+11. db.StudentInfo.deleteOne({firstname:'Saurabh'});
